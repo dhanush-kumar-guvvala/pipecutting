@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pipe Cutting Optimization</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pipe Cutting Optimization</h1>
+    <form id="pipeForm">
+      <label for="pipeLength">Full Pipe Length (in feet):</label>
+      <input type="number" id="pipeLength" required><br><br>
+      
+      <label for="types">Number of Types of Pieces:</label>
+      <input type="number" id="types" required><br><br>
+      
+      <div id="pieceInputs"></div>
+      
+      <button type="button" id="generateInputs">Generate Inputs</button>
+      <button type="submit">Calculate</button>
+    </form>
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
